@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-prj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/styles.css --watch",
+    "prettier" : "npx prettier --write **/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qdat7979/tailwind-tut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qdat7979/tailwind-tut/issues"
+  },
+  "homepage": "https://github.com/qdat7979/tailwind-tut#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.1"
+  }
+}
